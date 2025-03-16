@@ -7,8 +7,7 @@ Therefore, I built this code to cross check all the information.
 
 ## About the code
 
-1. Read the Excel file using pandas.
-
-2. Verify the city, latitude, longitude, and time zone using a reliable source (e.g., a geocoding API like OpenStreetMap or Google Maps API).
-
-3. Flag discrepancies and save the results to a new file.
+1. Eliminate duplicate locations.
+2. Read the Excel file using pandas.
+3. Verify the city, latitude, longitude, and time zone using a reliable source (e.g., a geocoding API like Google Maps API).
+4. Flag discrepancies and save the results to a new file.
